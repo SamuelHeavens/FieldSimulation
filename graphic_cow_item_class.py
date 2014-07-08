@@ -11,4 +11,4 @@ class CowGraphicsPixmapItem(AnimalGraphicsPixmapItem):
         self.available_graphics = [":/cow_baby.png",":/cow_poor.png",
                                    ":/cow_fine.png",":/cow_prime.png"]
         super().__init__(self.available_graphics)
-        self.animal = Cow("")
+        #self.animal = Cow("")

@@ -9,7 +9,7 @@ class FieldItemGraphicsPixmapItem(QGraphicsPixmapItem):
         self.available_graphics = graphics_list
         self.current_graphic = QPixmap(self.available_graphics[0])
         self.setPixmap(self.current_graphic.scaledToWidth(25,1))
-        self.setFlag(QGraphicsItem.ItemIsMoveable) #allows us to move the graphic in the scene
+        self.setFlag(QGraphicsItem.ItemIsMovable) #allows us to move the graphic in the scene
 
     def update_status(self):
         pass
